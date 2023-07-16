@@ -79,6 +79,8 @@ label start:
     q "Oh no!"
 
     q "Do we hnow where they are?"
+
+    k "No."
     # This ends the game.
 
     return
