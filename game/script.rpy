@@ -12,6 +12,7 @@ define n = Character("Narrator")
 define q = Character("Queen")
 define k = Character("King")
 define p = Character("Phone")
+define m = Character("Microphone")
 
 # The game starts here.
 
@@ -78,6 +79,17 @@ label start:
     q "Do we hnow where they are?"
 
     k "No."
+
+    q "Let's send a search team."
+
+    hide Queen
+    hide King
+    show King at midright
+    show Mic at midleft
+
+    k "Activate code 17 section A subsection C. This is not a drill."
+
+    n "Alarms start."
     # This ends the game.
 
     return
