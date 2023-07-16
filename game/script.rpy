@@ -8,7 +8,7 @@ transform midright:
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define e = Character("Narrator")
+define n = Character("Narrator")
 define q = Character("Queen")
 define k = Character("King")
 define p = Character("Phone")
@@ -27,15 +27,15 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-
+    show Narrator static
     # These display lines of dialogue.
 
-    "It is a warm morning in the Bronze Kingdom."
+    n "It is a warm morning in the Bronze Kingdom."
 
-    "The King is planning wars."
+    n "The King is planning wars."
 
-    "The queen is gaming."
-
+    n "The queen is gaming."
+    hide Narrator static
     show Queen happy
 
     q "It looks nice outside."
