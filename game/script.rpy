@@ -27,17 +27,14 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show Narrator happy
 
     # These display lines of dialogue.
 
-    e "It is a warm morning in the Bronze Kingdom."
+    "It is a warm morning in the Bronze Kingdom."
 
-    e "The King is planning wars."
+    "The King is planning wars."
 
-    e "The queen is gaming."
-
-    hide Narrator happy
+    "The queen is gaming."
 
     show Queen happy
 
