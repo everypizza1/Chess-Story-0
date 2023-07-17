@@ -88,7 +88,10 @@ label start:
     show Mic at midleft
 
     k "Activate code 17 section A subsection C. This is not a drill."
+    hide Mic
+    hide King
 
+    show King
     n "Alarms start."
     # This ends the game.
 
