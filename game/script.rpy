@@ -84,8 +84,8 @@ label start:
 
     hide Queen
     hide King
-    show King at midright
-    show Mic at midleft
+    show King at midleft
+    show Mic at midright
 
     k "Activate code 17 section A subsection C. This is not a drill."
     hide Mic
@@ -93,6 +93,10 @@ label start:
 
     show King
     n "Alarms start."
+    hide King
+    show King at midleft
+    show Pawn Leader at midright
+
     # This ends the game.
 
     return
