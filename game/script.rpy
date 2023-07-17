@@ -98,13 +98,16 @@ label start:
     show King at midleft
     show Pawn Leader at midright
 
-    pl "Were did the incident happen?"
+    pl "Where did the incident happen?"
     
     k "Silver Kingdom."
 
     pl "I will send the best teams out."
 
     k "Good luck."
+
+    hide King
+    hide Pawn Leader
     # This ends the game.
 
     return
