@@ -13,6 +13,7 @@ define q = Character("Queen")
 define k = Character("King")
 define p = Character("Phone")
 define m = Character("Microphone")
+define pl = Character("Pawn Leader")
 
 # The game starts here.
 
@@ -97,6 +98,9 @@ label start:
     show King at midleft
     show Pawn Leader at midright
 
+    pl "Were did the incident happen?"
+    
+    k "Silver Kingdom."
     # This ends the game.
 
     return
