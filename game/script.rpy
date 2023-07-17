@@ -101,6 +101,10 @@ label start:
     pl "Were did the incident happen?"
     
     k "Silver Kingdom."
+
+    pl "I will send the best teams out."
+
+    k "Good luck."
     # This ends the game.
 
     return
