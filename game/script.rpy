@@ -149,6 +149,13 @@ label start:
             hide Pawn Leader
             jump next1
     label next1:
+        scene blank
+        show text "You go down the path" at truecenter
+        with dissolve
+        pause 5
+        hide text
+        with dissolve
+        scene Silver Entrance
     # This ends the game.
 
     return
