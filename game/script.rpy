@@ -110,12 +110,12 @@ label start:
     hide King
     hide Pawn Leader
     scene Outside
-
+    label menu1:
     menu:
         "Where should we go?"
         "Left":
             pl "It's blocked!"
-            jump right1
+            jump menu1
         "Right":
             jump right1
     
