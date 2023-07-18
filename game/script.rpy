@@ -119,7 +119,7 @@ label start:
         "Right":
             jump right1
     
-    label right1
+    label right1:
     show Pawn Leader happy
     pl "I see footsteps!"
     hide Pawn Leader
@@ -148,7 +148,7 @@ label start:
             pl "Let's continue."
             hide Pawn Leader
             jump next1
-    label next1
+    label next1:
     # This ends the game.
 
     return
