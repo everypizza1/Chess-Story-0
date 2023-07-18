@@ -14,6 +14,7 @@ define k = Character("King")
 define p = Character("Phone")
 define m = Character("Microphone")
 define pl = Character("Pawn Leader")
+define gb1 = Character("Bronze Guard")
 
 # The game starts here.
 
@@ -108,6 +109,46 @@ label start:
 
     hide King
     hide Pawn Leader
+    scene Outside
+
+    menu:
+        "Where should we go?"
+        "Left":
+            pl "It's blocked!"
+            jump right1
+        "Right":
+            jump right1
+    
+    label right1
+    show Pawn Leader happy
+    pl "I see footsteps!"
+    hide Pawn Leader
+    menu: 
+        "What should we do?"
+        "Ask guards":
+            show Pawn Leader idea
+            pl "Let's go ask the guards."
+            scene Castle Entrance
+            hide Pawn Leader
+            show Guard Bronze 1
+            pl "When did theese footsteps appear?"
+            gb1 "Last night."
+            pl "Did you hear anything?"
+            gb1 "No, but I saw a pawn silloete."
+            pl "How many?"
+            gb1 "2."
+            pl "Alright."
+            pl "Did they come back?"
+            gb1 "No."
+            pl "Thanks."
+            hide Guard Bronze
+            jump next1
+        "Continue":
+            show Pawn Leader idea
+            pl "Let's continue."
+            hide Pawn Leader
+            jump next1
+    label next1
     # This ends the game.
 
     return
