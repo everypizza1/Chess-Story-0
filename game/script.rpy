@@ -170,11 +170,18 @@ label start:
         hide Pawn Leader
         hide Silver Guard 1
         scene blank
-        show text "You go down the path" at truecenter
+        show text "You go down the path." at truecenter
         with dissolve
         pause 5
         hide text
         with dissolve
+        scene crime
+        show Pawn Leader at midleft
+        show Silver Guard 1 at midright
+        gs1 "Here is the crime scene."
+        pl "Were any injuries reported?"
+        gs1 "No."
+        pl "What do you think they were trying to do?"
     # This ends the game.
 
     return
