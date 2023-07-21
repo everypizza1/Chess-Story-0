@@ -186,6 +186,18 @@ label start:
         pl "Oh no!"
         pl "I can confirm that we did not authorise this."
         gs1 "Alright."
+        pl "You should put them in your prison while we send out an escort team to get them."
+        gs1 "Okay."
+        pl "Is that all?"
+        gs1 "Yes."
+        hide Pawn Leader
+        hide Silver Guard 1
+        scene blank
+        show text "You go down the path." at truecenter
+        with dissolve
+        pause 5
+        hide text
+        with dissolve
     # This ends the game.
 
     return
