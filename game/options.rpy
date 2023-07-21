@@ -74,13 +74,13 @@ define config.has_voice = False
 
 ## Entering or exiting the game menu.
 
-define config.enter_transition = dissolve
-define config.exit_transition = dissolve
+define config.enter_transition = pushright
+define config.exit_transition = pushleft
 
 
 ## Between screens of the game menu.
 
-define config.intra_transition = dissolve
+define config.intra_transition = fade
 
 
 ## A transition that is used after a game has been loaded.
