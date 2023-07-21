@@ -15,7 +15,7 @@ define p = Character("Phone")
 define m = Character("Microphone")
 define pl = Character("Pawn Leader")
 define gb1 = Character("Bronze Guard")
-
+define gs1 = Character("Silver Guard")
 # The game starts here.
 
 label start:
@@ -156,6 +156,25 @@ label start:
         hide text
         with dissolve
         scene Silver Entrance
+        show Pawn Leader
+        n "Your group knoks on the door."
+        n "The silver guards awnser."
+        gs1 "Who is there?"
+        pl "The Bronze pawn team #002"
+        hide Pawn Leader
+        show Pawn Leader at midleft
+        show Silver Guard 1 at midright
+        gs1 "You may enter."
+        pl "Can you direct us to the crime scene?"
+        gs1 "Sure."
+        hide Pawn Leader
+        hide Silver Guard 1
+        scene blank
+        show text "You go down the path" at truecenter
+        with dissolve
+        pause 5
+        hide text
+        with dissolve
     # This ends the game.
 
     return
