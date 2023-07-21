@@ -199,7 +199,7 @@ label start:
         hide text
         with dissolve
         scene Bronze Entrance
-        
+        n "The pawns knock on the door."
     # This ends the game.
 
     return
