@@ -182,6 +182,10 @@ label start:
         pl "Were any injuries reported?"
         gs1 "No."
         pl "What do you think they were trying to do?"
+        gs1 "It looks like they were trying to kill the king."
+        pl "Oh no!"
+        pl "I can confirm that we did not authorise this."
+        gs1 "Alright."
     # This ends the game.
 
     return
