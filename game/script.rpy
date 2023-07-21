@@ -198,6 +198,8 @@ label start:
         pause 5
         hide text
         with dissolve
+        scene Bronze Entrance
+        
     # This ends the game.
 
     return
