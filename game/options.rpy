@@ -1,4 +1,4 @@
-﻿## This file contains options that can be changed to customize your game.
+## This file contains options that can be changed to customize your game.
 ##
 ## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
@@ -31,6 +31,8 @@ define config.version = "0.0.2.5"
 
 define gui.about = _p("""
 This game takes place before the first chess game.
+
+Made by EveryPizza (PizzaTheGreat)
 """)
 
 
