@@ -200,6 +200,9 @@ label start:
         with dissolve
         scene Bronze Entrance
         n "The pawns knock on the door."
+        gb1 "Who is it?"
+        pl "Pawn group 002."
+        gb1 "You may enter."
     # This ends the game.
 
     return
