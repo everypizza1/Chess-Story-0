@@ -201,9 +201,12 @@ label start:
         scene Bronze Entrance
         n "The pawns knock on the door."
         gb1 "Who is it?"
-        pl "Pawn group 002."
+        pl "Pawn group #002."
         gb1 "You may enter."
-        pl "Thakns."  
+        pl "Thanks."
+        pl "Were there any major developments in the case?"
+        gb1 "Not that I have heard of yet."
+        gb1 "You should ask the investigation team."  
     # This ends the game.
 
     return
