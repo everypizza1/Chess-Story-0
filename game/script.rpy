@@ -203,6 +203,7 @@ label start:
         gb1 "Who is it?"
         pl "Pawn group 002."
         gb1 "You may enter."
+        pl "Thakns."  
     # This ends the game.
 
     return
