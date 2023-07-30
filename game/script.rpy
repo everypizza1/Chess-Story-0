@@ -220,6 +220,7 @@ label start:
         pause 5
         hide text
         with dissolve
+        
     # This ends the game.
 
     return
