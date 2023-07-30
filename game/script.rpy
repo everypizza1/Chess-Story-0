@@ -15,6 +15,7 @@ define m = Character("Microphone")
 define pl = Character("Pawn Leader")
 define gb1 = Character("Bronze Guard")
 define gs1 = Character("Silver Guard")
+define itl1 = Character("Investigation Team #1 Leader")
 # The game starts here.
 
 label start:
@@ -186,7 +187,17 @@ label start:
         pause 5
         hide text
         with dissolve
-
+        scene Investigation Building Bronze
+        show Investigation Team 1 Leader
+        itl1 "Hello?"
+        pl "Hello!"
+        itl1 "Did you find anything out?"
+        pl "No."
+        pl "What about you?"
+        itl1 "Not yet. We have some DNA from the crime scene, but that can't help."
+        pl "Why?"
+        itl1 "Because we have no DNA t compare it with."
+        pl "Oh yeah, I forgot."
     # This ends the game.
 
     return
