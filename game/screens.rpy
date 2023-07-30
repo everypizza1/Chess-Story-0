@@ -254,8 +254,8 @@ screen quick_menu():
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
+            textbutton _("Quick Save") action QuickSave()
+            textbutton _("Quick Load") action QuickLoad()
             textbutton _("Prefs") action ShowMenu('preferences')
 
 
@@ -385,7 +385,7 @@ style main_menu_frame:
     xsize 280
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    background "images/untitled.png"
 
 style main_menu_vbox:
     xalign 1.0
