@@ -200,13 +200,26 @@ label start:
         with dissolve
         scene Bronze Entrance
         n "The pawns knock on the door."
+        show Pawn Leader
         gb1 "Who is it?"
         pl "Pawn group #002."
         gb1 "You may enter."
         pl "Thanks."
+        hide Pawn Leader
+        show Pawn Leader at midleft
+        show Bronze Guard 1 at midright
         pl "Were there any major developments in the case?"
         gb1 "Not that I have heard of yet."
-        gb1 "You should ask the investigation team."  
+        gb1 "You should ask the investigation team."
+        pl "Alright."
+        hide Pawn Leader
+        hide Bronze Guard 1
+        scene blank
+        show text "You go down the path." at truecenter
+        with dissolve
+        pause 5
+        hide text
+        with dissolve
     # This ends the game.
 
     return
