@@ -166,6 +166,7 @@ label start:
         hide text
         with dissolve
         scene Bronze Entrance
+
         n "The pawns knock on the door."
         show Pawn Leader
         gb1 "Who is it?"
@@ -181,6 +182,7 @@ label start:
         pl "Alright."
         hide Pawn Leader
         hide Bronze Guard 1
+
         scene blank
         show text "You go down the path." at truecenter
         with dissolve
@@ -188,6 +190,7 @@ label start:
         hide text
         with dissolve
         scene Investigation Building Bronze
+        
         show Investigation Team 1 Leader
         itl1 "Hello?"
         pl "Hello!"
