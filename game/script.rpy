@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+﻿
 #midleft pos
 transform midleft:
     xalign 0.3
@@ -16,7 +16,6 @@ define pl = Character("Pawn Leader")
 define gb1 = Character("Bronze Guard")
 define gs1 = Character("Silver Guard")
 define itl1 = Character("Investigation Team #1 Leader")
-# The game starts here.
 
 label start:
     # Show a background. This uses a placeholder by default, but you can
