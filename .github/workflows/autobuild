@@ -1,0 +1,8 @@
+- name: Build game (very epic, real)
+  uses: ProjectAliceDev/renpy-build-action@master
+  with:
+    sdk-version: '8.1.1'
+    project-dir: '/game'
+  env:
+    SDL_AUDIODRIVER: dummy
+    SDL_VIDEODRIVER: dummy
