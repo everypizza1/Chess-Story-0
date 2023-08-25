@@ -185,7 +185,7 @@ label start:
         scene blank
         show text "You go down the path." at truecenter
         with dissolve
-        pause 5
+        pause 6
         hide text
         with dissolve
         scene Investigation Building Bronze
