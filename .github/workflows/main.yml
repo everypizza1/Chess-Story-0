@@ -3,7 +3,7 @@ jobs:
   name: Build Ren'Py Project
   
   # You may pin to the exact commit or the version.
-  # uses: ProjectAliceDev/renpy-build-action@8a6ba6d0757aed7e5d9060bb8822dc59be7fd784
+  # uses: 
   uses: ProjectAliceDev/renpy-build-action@v1.2.0
   with:
     # The version of the Ren'Py SDK to use
