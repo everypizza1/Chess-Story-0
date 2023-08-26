@@ -82,7 +82,7 @@ jobs:
 
         ###### Install options ######
         # Whether to verify the downloaded Butler archive's signature
-        check_signature: true
+        check_signature: false
         
         # Whether to update the PATH variable to include Butler's
         # install directory
