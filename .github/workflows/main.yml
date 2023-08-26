@@ -1,12 +1,11 @@
+on: [push]
 jobs:
-  on: [push]
-  name: Build Ren'Py Project
-  
+    build:
   # You may pin to the exact commit or the version.
-  # uses: 
-  uses: ProjectAliceDev/renpy-build-action@v1.2.0
-  with:
+  # uses: creeeples/renpy-docker-builder@fef0ac32fc36105d1c1d6c320977f1fc1cf9b150
+      uses: 'creeeples/renpy-docker-builder@v1.0.2'
+      with:
     # The version of the Ren'Py SDK to use
-    sdk-version: '8.1.1'
-    # The path to the directory where the project exists
-    project-dir: '.'
+        sdk-version: '8.1.1' # default is 8.1.1
+    # The directory that houses the Ren'Py game files. Typically found at ./game/
+        project-dir: '.' # default is .
