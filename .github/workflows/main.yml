@@ -41,7 +41,7 @@ jobs:
       uses: creeeples/renpy-docker-builder@v1.0.2
       with:
         sdk-version: '8.1.1'
-        project-dir: '.'
+        project-dir: './game/'
       env:
         SDL_AUDIODRIVER: dummy
         SDL_VIDEODRIVER: dummy
