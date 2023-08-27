@@ -1,4 +1,4 @@
-name: Ren'Py Autobuild + Deploy (Creeeples v1.0.0)
+name: Ren'Py Build + Itch upload
 
 on:
   push:
