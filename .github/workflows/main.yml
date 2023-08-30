@@ -64,7 +64,24 @@ jobs:
         done
       env:
           GH_TOKEN: ${{ github.token }}
-          
+    - name: Setup GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        token: ${{ github.token }}
+        tag_name: ${{ steps.format_tag_name.outputs.tag_name }}
+        prerelease: ${{ startsWith(github.ref, 'refs/heads/prerelease/') }} # Set prerelease flag conditionally
+      env:
+          GH_TOKEN: ${{ github.token }}
+
+    - name: Upload All Build Folders
+      run: |
+        for file in ${{ steps.build_project.outputs.dir }}/*.{zip,tar.bz2}; do
+        echo "Uploading $file"
+        asset_name=$(basename "$file")
+        gh release upload ${{ steps.format_tag_name.outputs.tag_name }} "$file" --clobber
+        done
+      env:
+          GH_TOKEN: ${{ github.token }}    
     - name: ItchIO Upload
       if: startsWith(github.ref, 'refs/heads/release/') # Skip this step for prerelease branch
       uses: Ayowel/butler-to-itch@v1.0.0
@@ -107,3 +124,5 @@ jobs:
         # install directory
         update_path: false
         butler_version: "latest"
+
+    
