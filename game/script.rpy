@@ -25,57 +25,57 @@ label start:
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-    show Narrator static with dissolve
+    show Narrator static
     # These display lines of dialogue.
     n "It is a warm morning in the Bronze Kingdom."
     n "The King is planning wars."
     n "The queen is gaming."
-    hide Narrator static with dissolve
-    show Queen happy with dissolve
+    hide Narrator static
+    show Queen happy
     q "It looks nice outside."
-    hide Queen happy with dissolve
+    hide Queen happ
     show King happy at midleft
     k "I agree."
     show Phone ring at midright
     p "*ringing*"
     show King confused
     k "Huh?"
-    hide King confused with dissolve
-    hide Phone ring with dissolve
-    show King busy with dissolve
+    hide King confuse
+    hide Phone rin
+    show King bus
     k "Hello?"
-    hide King busy with dissolve
-    show King concerened with dissolve
+    hide King bus
+    show King concerened
     k "I did not authorise them."
     k "I will check it out."
     k "Goodbye."
-    hide King concerened with dissolve
-    show King concerened at midleft with dissolve
-    show Queen concerened at midright with dissolve
+    hide King concerened
+    show King concerened at midleft
+    show Queen concerened at midright
     q "What happened?"
     k "One of the pawns went rouge."
     q "Oh no!"
     q "Do we hnow where they are?"
     k "No."
     q "Let's send a search team."
-    hide Queen with dissolve
-    hide King with dissolve
-    show King at midleft with dissolve
-    show Mic at midright with dissolve
+    hide Queen
+    hide King
+    show King at midleft
+    show Mic at midright
     k "Activate code 17 section A subsection C. This is not a drill."
-    hide Mic with dissolve
-    hide King with dissolve
-    show King with dissolve
+    hide Mic 
+    hide King 
+    show King 
     n "Alarms start."
-    hide King with dissolve
-    show King at midleft with dissolve
-    show Pawn Leader at midright with dissolve
+    hide King 
+    show King at midleft 
+    show Pawn Leader at midright 
     pl "Where did the incident happen?"
     k "Silver Kingdom."
     pl "I will send the best teams out."
     k "Good luck."
-    hide King with dissolve
-    hide Pawn Leader with dissolve
+    hide King 
+    hide Pawn Leader
     scene Outside
     label menu1:
     menu:
@@ -86,16 +86,16 @@ label start:
         "Right":
             jump right1
     label right1:
-    show Pawn Leader happy with dissolve
+    show Pawn Leader happy 
     pl "I see footsteps!"
-    hide Pawn Leader with dissolve
+    hide Pawn Leader 
     menu: 
         "What should we do?"
         "Ask guards":
             show Pawn Leader idea
             pl "Let's go ask the guards."
             scene Castle Entrance
-            hide Pawn Leader with dissolve
+            hide Pawn Leader 
             show Guard Bronze 1
             pl "When did theese footsteps appear?"
             gb1 "Last night."
@@ -107,12 +107,12 @@ label start:
             pl "Did they come back?"
             gb1 "No."
             pl "Thanks."
-            hide Guard Bronze with dissolve
+            hide Guard Bron
             jump next1
         "Continue":
-            show Pawn Leader idea with dissolve
+            show Pawn Leader idea
             pl "Let's continue."
-            hide Pawn Leader with dissolve
+            hide Pawn Leader
             jump next1
     label next1:
         scene blank
@@ -198,7 +198,7 @@ label start:
         pl "What about you?"
         itl1 "Not yet. We have some DNA from the crime scene, but that can't help."
         pl "Why?"
-        itl1 "Because we have no DNA t compare it with."
+        itl1 "Because we have no DNA to compare it with."
         pl "Oh yeah, I forgot."
     # This ends the game.
 
