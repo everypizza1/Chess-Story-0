@@ -1,5 +1,4 @@
-﻿
-#midleft pos
+﻿#midleft pos
 transform midleft:
     xalign 0.3
 #Midright pos
