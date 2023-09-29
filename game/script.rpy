@@ -32,7 +32,7 @@ label start:
     hide Narrator static
     show Queen happy
     q "It looks nice outside."
-    hide Queen happ
+    hide Queen happy
     show King happy at midleft
     k "I agree."
     show Phone ring at midright
