@@ -190,7 +190,7 @@ label start:
         scene Investigation Building Bronze
         
         show Investigation Team 1 Leader at midleft
-        Show Pawn Leader at midright
+        show Pawn Leader at midright
         itl1 "Hello?"
         pl "Hello!"
         itl1 "Did you find anything out?"
