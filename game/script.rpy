@@ -201,6 +201,11 @@ label start:
         itl1 "Because we have no DNA to compare it with."
         pl "Oh yeah, I forgot."
         pl "The disadvantage of not spying on our citizens."
+        itl1 "Hang on..."
+        pl "No, we aren't spying on them!"
+        hide Pawn Leader
+        show Pawn Leader annoyed at midright
+        pl "How many times do I need to tell you this?"
 
     # This ends the game.
 
