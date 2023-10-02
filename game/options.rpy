@@ -34,7 +34,7 @@ This game takes place before the first chess game.
 
 Made by EveryPizza (PizzaTheGreat)
 
-I think that this game works...
+if ypu can raed tihs, the gmae wkors (i hvae bad spll slliks)
 """)
 
 
