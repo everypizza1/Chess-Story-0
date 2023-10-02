@@ -206,7 +206,11 @@ label start:
         hide Pawn Leader
         show Pawn Leader annoyed at midright
         pl "How many times do I need to tell you this?"
-
+        itl1 "Tell me what?"
+        pl "WE AREN'T SPING ON OUR CITZENS?"
+        itl1 "But why?"
+        pl "Because we're just better than the US!"
+        itl1 "Alright, fine."
     # This ends the game.
 
     return
