@@ -4,6 +4,9 @@ transform midleft:
 #Midright pos
 transform midright:
     xalign 0.7
+transform topright:
+    xalign 0.7
+    yalign 0.7
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 define n = Character("Narrator")
@@ -209,8 +212,27 @@ label start:
         itl1 "Tell me what?"
         pl "WE AREN'T SPING ON OUR CITZENS?"
         itl1 "But why?"
-        pl "Because we're just better than the US!"
+        pl "Because we're just better than the other countries!"
         itl1 "Alright, fine."
+        itl1 "We won't spy on them."
+        hide Pawn Leader
+        hide Investigation Team 1 Leader
+
+        scene blank
+        show text "The next morining..." at truecenter
+        with dissolve
+        pause 6
+        hide text
+        with dissolve
+        scene silver horizon 1
+
+        show text "Silver Kingdom" at topright
+        with dissolve
+        pause 5
+        hide text
+        with dissolve
+
+        show Pawn Leader Silver
     # This ends the game.
 
     return
