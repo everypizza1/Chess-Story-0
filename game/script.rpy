@@ -1,4 +1,6 @@
-﻿#midleft pos
+﻿# Functions
+#midleft pos
+# e.x. show character at pos
 transform midleft:
     xalign 0.3
 #Midright pos
@@ -9,6 +11,7 @@ transform topright:
     yalign 0.7
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
+# shows title of character
 define n = Character("Narrator")
 define q = Character("Queen")
 define k = Character("King")
@@ -18,6 +21,8 @@ define pl = Character("Pawn Leader")
 define gb1 = Character("Bronze Guard")
 define gs1 = Character("Silver Guard")
 define itl1 = Character("Investigation Team #1 Leader")
+
+# Actual code
 
 label start:
     # Show a background. This uses a placeholder by default, but you can
