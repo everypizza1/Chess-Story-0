@@ -1,3 +1,4 @@
 - [ ] Images
 - [x] Story start
-- [ ] Good plot
+- [ ] Good plot (impossible)
+- [ ] [i]Good[/i] UI
