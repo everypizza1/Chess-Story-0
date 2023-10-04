@@ -25,13 +25,10 @@ define itl1 = Character("Investigation Team #1 Leader")
 # Actual code
 
 label start:
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
+    # Show a background. Here it is /images/castle bedroom.png
+    #FIX BEFORE RELEASE
     scene castle bedroom
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    # This shows a character sprite. here it will show /images/Narrator static.png
     show Narrator static
     # These display lines of dialogue.
     n "It is a warm morning in the Bronze Kingdom."
