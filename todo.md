@@ -3,3 +3,4 @@
 - [ ] Good plot (impossible)
 - [ ] *Good* UI
 - [ ] Split script.rpy
+- [ ] Make code look good
