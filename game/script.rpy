@@ -204,10 +204,10 @@ label start:
         itl1 "Because we have no DNA to compare it with."
         pl "Oh yeah, I forgot."
         pl "The disadvantage of not spying on our citizens."
-        itl1 "Hang on..."
-        pl "No, we aren't spying on them!"
+        itl1 "Hear me out..."
         hide Pawn Leader
         show Pawn Leader annoyed at midright
+        pl "No, I'm not hearing you out!"
         pl "How many times do I need to tell you this?"
         itl1 "Tell me what?"
         pl "WE AREN'T SPING ON OUR CITZENS?"
