@@ -1,3 +1,3 @@
-[ ] Images
-[x] Story start
-[] Good plot
+- [] Images
+- [x] Story start
+- [] Good plot
