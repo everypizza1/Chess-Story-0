@@ -2,3 +2,4 @@
 - [x] Story start
 - [ ] Good plot (impossible)
 - [ ] *Good* UI
+- [ ] Split script.rpy
