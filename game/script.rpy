@@ -17,7 +17,7 @@ define q = Character("Queen")
 define k = Character("King")
 define p = Character("Phone")
 define m = Character("Microphone")
-define pl = Character("Pawn Leader")
+define pl = Character("Bronze Pawn Leader")
 define gb1 = Character("Bronze Guard")
 define gs1 = Character("Silver Guard")
 define itl1 = Character("Investigation Team #1 Leader")
@@ -235,6 +235,7 @@ label start:
         with dissolve
 
         show Pawn Leader Silver
+
     # This ends the game.
 
     return
