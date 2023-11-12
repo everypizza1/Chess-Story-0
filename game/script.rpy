@@ -21,7 +21,6 @@ define pl = Character("Bronze Pawn Leader")
 define gb1 = Character("Bronze Guard")
 define gs1 = Character("Silver Guard")
 define itl1 = Character("Investigation Team #1 Leader")
-
 # Actual code
 
 label start:
@@ -175,7 +174,6 @@ label start:
         hide text
         with dissolve
         scene Bronze Entrance
-
         n "The pawns knock on the door."
         show Pawn Leader
         gb1 "Who is it?"
@@ -191,7 +189,6 @@ label start:
         pl "Alright."
         hide Pawn Leader
         hide Bronze Guard 1
-
         scene blank
         show text "You go down the path." at truecenter
         with dissolve
@@ -199,7 +196,6 @@ label start:
         hide text
         with dissolve
         scene Investigation Building Bronze
-        
         show Investigation Team 1 Leader at midleft
         show Pawn Leader at midright
         itl1 "Hello?"
@@ -225,7 +221,6 @@ label start:
         itl1 "We won't spy on them."
         hide Pawn Leader
         hide Investigation Team 1 Leader
-
         scene blank
         show text "The next morining..." at truecenter
         with dissolve
@@ -233,15 +228,12 @@ label start:
         hide text
         with dissolve
         scene silver horizon 1
-
         show text "Silver Kingdom" at topright
         with dissolve
         pause 5
         hide text
         with dissolve
-
         show Pawn Leader Silver
 
     # This ends the game.
-
     return
