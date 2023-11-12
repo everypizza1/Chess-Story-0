@@ -24,7 +24,7 @@ define itl1 = Character("Investigation Team #1 Leader")
 # Actual code
 
 label start:
-    scene blank
+    scene blank:
         show text "Act I" at truecenter
         with dissolve
         pause 5

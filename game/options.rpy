@@ -23,18 +23,15 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.3.2"
+define config.version = "0.3.3"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
-This game takes place before the first chess game.
+This game takes place before the first chess game. Made by EveryPizza (PizzaTheGreat)
 
-Made by EveryPizza (PizzaTheGreat)
-
-if ypu can raed tihs, the gmae wkors (i hvae bad spll slliks)
 """)
 
 
