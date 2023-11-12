@@ -24,12 +24,12 @@ define itl1 = Character("Investigation Team #1 Leader")
 # Actual code
 
 label start:
-    scene blank:
-        show text "Act I" at truecenter
-        with dissolve
-        pause 5
-        hide text
-        with dissolve
+    scene blank
+    show text "Act I" at truecenter
+    with dissolve
+    pause 5
+    hide text
+    with dissolve
     # Show a background. Here it is /images/castle bedroom.png
     #FIX BEFORE RELEASE
     scene castle bedroom
@@ -132,7 +132,7 @@ label start:
         with dissolve
         scene Silver Entrance
         show Pawn Leader
-        n "Your group knoks on the door."
+        n "Your group knocks on the door."
         n "The silver guards awnser."
         gs1 "Who is there?"
         pl "The Bronze pawn team #002"
