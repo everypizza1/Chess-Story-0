@@ -25,6 +25,12 @@ define itl1 = Character("Investigation Team #1 Leader")
 # Actual code
 
 label start:
+    scene blank
+        show text "Act I" at truecenter
+        with dissolve
+        pause 5
+        hide text
+        with dissolve
     # Show a background. Here it is /images/castle bedroom.png
     #FIX BEFORE RELEASE
     scene castle bedroom
