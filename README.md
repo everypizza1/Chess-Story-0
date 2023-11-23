@@ -2,7 +2,7 @@
 Chess: Story Mode (volume 0) is a Ren'Py story game.
 
 # How to obtain a copy 
-The game is on [itch.io](https://everypizza.itch.io/chess-story-0).
+The game is on [itch.io](https://everypizza.itch.io/chess-story-0). You can also use GitHub Releases.
 
 # DISCLAMER
 this code is very bad lol
